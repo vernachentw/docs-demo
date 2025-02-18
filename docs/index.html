@@ -75,19 +75,20 @@
         color: #42b983;
       }
 
-      main {
-        position: fixed;
+      .sidebar {
+        position: relative;
         top: 50px;
       }
 
-      .sidebar {
+      /* main {
+        position: fixed;
         top: 50px;
       }
 
       .content {
         overflow: auto;
         padding-bottom: 30px;
-      }
+      } */
     </style>
   </head>
   <body>
@@ -107,6 +108,9 @@
         loadSidebar: true, // _sidebar.md
 
         // routerMode: 'history', // rtls 渲染異常
+        homepage: 'README.md',
+        // homepage: getHomepage(), // fail
+        auto2top: true, //切換頁面後是否自動跳到頁面頂部
 
         sidebar: {
           '/': '_sidebar.md',
@@ -142,9 +146,6 @@
 
         // subMaxLevel需搭配  # Getting Started <!-- {docsify-ignore-all} -->  or ## Header <!-- {docsify-ignore} --> 使用才不會自動產生sidebar
         // subMaxLevel: 2, // 設這個, 會自動產生 Sidebar 內容, 自動產生的會無法跳到 sidebar 自己產生的header 位置
-
-        homepage: 'README.md',
-        // homepage: getHomepage(), // fail
 
         search: {
           maxAge: 86400000, // 搜尋結果緩存一天
