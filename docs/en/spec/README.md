@@ -1,0 +1,3 @@
+# SPEC
+
+> An awesome project.
