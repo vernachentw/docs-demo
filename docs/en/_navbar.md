@@ -9,5 +9,5 @@
 - [<i class="fa-solid fa-house home-icon"></i>](https://www.gips.com.tw/en/)
 
 - Lang
-  - [En](/en/)
+  - [En](/)
   - [繁體中文](/tw/)

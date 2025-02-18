@@ -1,4 +1,4 @@
-- [Home](/en/)
+- [Home](/)
 - [Guide](/en/guide.md)
 - [System](/en/system/"System")
   - [System Settings](/en/system/system-settings.md)
